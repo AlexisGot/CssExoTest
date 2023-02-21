@@ -1,0 +1,55 @@
+#Global{
+    max-width: 1150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    font-size: 2em;
+}
+#Global #TitreDroite{
+    text-align: right;
+    text-decoration: underline;
+    color: red;
+    font-size: 2em;
+}
+
+#Global #TitreGauche{
+    text-align: left;
+    text-decoration: underline;
+    color: red;
+    font-size: 2em;
+}
+#Global #Gauche{
+    float: left;
+    width: 50%;
+    margin: 0 5px;
+    text-align: justify;
+    padding: 5px;
+    background-color: lightgrey;
+    font-size: 1em;
+}
+
+#Global #Droite{
+    float: right;
+    width: 50%;
+    margin-left: 5px;
+    text-align: justify;
+    padding: 5px;
+    background-color: lightgrey;
+    font-size: 1em;
+}
+#Gauche #ImageGauche{
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+#Droite #ImageDroite{
+    width: 100%;
+    max-width: 300px;
+    float: right;
+}

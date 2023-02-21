@@ -1,0 +1,57 @@
+#Carousel{
+    position: relative;
+    z-index: 1;
+}
+img{
+    width: 100%;
+}
+#Carousel #Gauche{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#Carousel #Droite{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+#Carousel .MoreOption1{
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+}
+#Carousel .MoreOption2{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+#Carousel .MoreOption3{
+    position: absolute;
+    bottom: 0;
+    left: 51%;
+}
+h1{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+#LogoReseaux .Twitter{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+#LogoReseaux .Instagram{
+    position: absolute;
+    z-index: 2;
+    right: 1%;
+    top: 0;
+}
+#LogoReseaux .Facebook{
+    position: absolute;
+    z-index: 2;
+    right: 2%;
+    top: 0;
+}
