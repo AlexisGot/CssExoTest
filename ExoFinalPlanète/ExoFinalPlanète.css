@@ -4,15 +4,16 @@
 
          /*  Header - 1  */
 
-         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
-         
-         
-         *{
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+
+
+         * {
             padding: 0;
             margin: 0;
          }
 
-         header{
+         header {
             font-family: 'Roboto';
          }
 
@@ -20,7 +21,7 @@
             background-color: #1B2430;
          }
 
-         header>div>div{
+         header>div>div {
             display: flex;
             justify-content: space-between;
             max-width: 1200px;
@@ -40,11 +41,11 @@
             margin: 0;
          }
 
-         header li:first-of-type a{
+         header li:first-of-type a {
             padding-left: 0;
          }
 
-         header li:last-of-type a{
+         header li:last-of-type a {
             padding-right: 0;
          }
 
@@ -57,7 +58,7 @@
             padding: 41px 16px;
             text-decoration: none;
             color: white;
-            font-size: 17px;
+            font-size: 1.0625rem;
          }
 
          #ImageHeader {
@@ -67,17 +68,18 @@
          }
 
          /*  Main - 2    */
-         
-         body{
+
+         body {
             background-color: #F6F6F6;
+            font-size: 16px;
          }
 
-         main{
+         main {
             font-family: 'Roboto';
          }
 
          main h2 {
-            font-size: 36px;
+            font-size: 2.25rem;
          }
 
          .Planete {
@@ -101,33 +103,31 @@
 
          article p {
             text-align: justify;
-            font-size: 20px;
-            font-size: 20px;
+            font-size: 1.25rem;
          }
 
-         article:nth-of-type(2n) div{
+         article:nth-of-type(2n) div {
             padding-right: 125px;
          }
 
-         article:nth-of-type(2n+1) div{
-         padding-left: 125px;
+         article:nth-of-type(2n+1) div {
+            padding-left: 125px;
          }
-
-
 
          .Article2 {
             display: flex;
             flex-direction: row-reverse
          }
 
-         .span1{
+         .span1 {
             background: #D6D5A8;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             color: black;
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
-            margin:18px 0
+            margin: 18px 20px 0 0;
+            font-size: 1.125rem;
          }
 
          .span2 {
@@ -137,7 +137,8 @@
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
-            margin:18px 0
+            margin: 18px 0;
+            font-size: 1.125rem;
          }
 
          .span3 {
@@ -147,7 +148,8 @@
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
-            margin:18px 0
+            margin: 18px 20px 0 0;
+            font-size: 1.125rem;
          }
 
          .span4 {
@@ -157,22 +159,22 @@
             padding: 10px;
             border-radius: 10px;
             display: inline-block;
-            margin:18px 0
+            margin: 18px 0;
+            font-size: 1.125rem;
          }
-         
-         .hr{
-            font-family: 'Roboto';            
+
+         .hr {
+            font-family: 'Roboto';
             position: relative;
             width: 100%;
             margin: 0 auto;
             text-transform: uppercase;
-            font-size: 30px;
+            font-size: 1.875rem;
             text-align: center;
             max-width: 1200px;
-      
          }
 
-         .hr::before{
+         .hr::before {
             position: absolute;
             content: "";
             background-color: black;
@@ -182,7 +184,7 @@
             left: 0;
          }
 
-         .hr::after{
+         .hr::after {
             position: absolute;
             content: "";
             background-color: black;
@@ -190,91 +192,92 @@
             height: 1px;
             top: 50%;
             right: 0;
-            }
+         }
 
          /*  Footer - 3  */
 
-         footer{
+         footer {
             background-color: #1B2430;
          }
-         
-         footer>div{  
+
+         footer>div {
             display: flex;
             justify-content: space-between;
             max-width: 1200px;
             margin: 0 auto;
          }
 
-         footer div p{
+         footer div p {
             color: white;
             padding-top: 10px;
             padding-bottom: 10px;
             text-align: center;
          }
-         
-         footer div a{
+
+         footer div a {
             color: white;
             text-decoration: none;
          }
 
-         footer div h3{
+         footer div h3 {
             font-family: 'Roboto';
-             color: white;
-            padding-top: 20px;
+            color: white;
             padding-bottom: 20px;
-            font-size: 25px;
+            font-size: 1.875rem;
          }
 
-         footer>p{
+         footer>p {
             color: white;
             text-align: center;
             padding-top: 20px;
          }
 
-         footer p a{
-            font-family: 'Montserrat' 
+         footer p a {
+            font-family: 'Montserrat';
+            font-size: 1.0625rem;
          }
 
-         footer #gauche{
+         footer #gauche {
             border-right: 2px solid white;
             padding-right: 15%;
+            
          }
 
-         footer #droite{
-            border-left: 2px solid white;
+         footer #droite {
+            border-left: 1px solid white;
             padding-left: 15%;
-
          }
 
-         .hr3{
-            font-family: 'Montserrat';            
+         .hr2{
+            padding-top: 20px;
+         }
+
+         .hr3 {
+            font-family: 'Montserrat';
             position: relative;
             width: 100%;
             margin: 0 auto;
             text-align: center;
             max-width: 1200px;
-      
+            font-size: 1.0625rem;
          }
 
-         .hr3::before{
+         .hr3::before {
             position: absolute;
             content: "";
             background-color: rgb(255, 255, 255);
             width: 50%;
             height: 1px;
-            top: 50%;
+            top: 40%;
             left: 0;
          }
 
-         .hr3::after{
+         .hr3::after {
             position: absolute;
             content: "";
             background-color: rgb(255, 255, 255);
             width: 50%;
             height: 1px;
-            top: 50%;
+            top: 40%;
             right: 0;
-            }
-
-         
-
+         }
